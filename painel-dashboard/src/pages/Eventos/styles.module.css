@@ -1,0 +1,109 @@
+/* styles.module.css */
+.card {
+    position: relative;
+    /* Para posicionar o checkbox */
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 10px;
+    /* Ajuste conforme necessário */
+    left: 10px;
+    /* Ajuste conforme necessário */
+    width: 20px;
+    /* Tamanho do checkbox */
+    height: 20px;
+    /* Tamanho do checkbox */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estilo personalizado para o checkbox */
+input[type="checkbox"]:checked {
+    background-color: #007bff;
+    /* Cor quando selecionado */
+    border: 2px solid #007bff;
+    /* Borda quando selecionado */
+}
+
+.btn-custom {
+    background-color: #f8f9fa;
+    /* Cor de fundo personalizada */
+    color: #495057;
+    /* Cor do texto */
+}
+
+.btn-custom:hover {
+    background-color: #e2e6ea;
+    /* Cor de fundo ao passar o mouse */
+}
+
+/* styles.module.css */
+.card {
+    position: relative;
+    /* Para posicionar o checkbox */
+    overflow: hidden;
+    /* Para evitar que elementos saiam da borda do card */
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 10px;
+    /* Ajuste conforme necessário */
+    left: 10px;
+    /* Ajuste conforme necessário */
+    width: 20px;
+    /* Tamanho do checkbox */
+    height: 20px;
+    /* Tamanho do checkbox */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007bff;
+    /* Cor quando selecionado */
+    border: 2px solid #007bff;
+    /* Borda quando selecionado */
+}
+
+.btn-custom {
+    background-color: #f8f9fa;
+    /* Cor de fundo personalizada */
+    color: #495057;
+    /* Cor do texto */
+    border: 1px solid #ced4da;
+    /* Borda do botão */
+    padding: 0.5rem 1rem;
+    /* Padding do botão */
+    border-radius: 0.25rem;
+    /* Borda arredondada */
+}
+
+.btn-custom:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    /* Alterne a cor para dar efeito de hover */
+    color: white;
+}
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 50%;
+    color: #007bff;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+}
