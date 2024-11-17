@@ -2,6 +2,9 @@
 
 Este projeto foi desenvolvido para a ONG **Casa da Paz** com o objetivo de oferecer uma solução digital para o gerenciamento de eventos, usuários, voluntários e uma galeria de fotos. A plataforma conta com um **painel administrativo completo** e um **site responsivo e dinâmico**, proporcionando uma gestão eficiente e uma experiência agradável para os administradores e visitantes.
 
+## Link para video de apresentação:
+https://drive.google.com/file/d/1xJmNSJRruWxAc2FMrvee6bhU8KS_LOoS/view?usp=sharing
+
 ## Funcionalidades Principais
 
 - **Painel Administrativo**: Através de um painel intuitivo e fácil de usar, é possível gerenciar os principais aspectos da ONG, como:
